@@ -1,0 +1,229 @@
+:root {
+    --primary-font: 'Raleway', sans-serif;
+    --btn-color: #404BBF;
+    --main-text-color: #FFFFFF;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.link {
+    text-decoration:none;
+}
+.list {
+    list-style: none;
+}
+/*-------------header---------------*/
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase ;
+    color: #4D5AE5
+}
+.header-logo-dark {
+    color: #2E2F42
+}
+.header-menu {
+}
+.header-menu-item {
+}
+.header-menu-li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header-menu-li:hover,
+.header-menu-li:focus {
+    color: #404BBF;
+}
+.header-address {
+    font-style: normal
+}
+.header-soc {
+}
+
+.header-soc-item {
+}
+.header-soc-li {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-soc-li:hover, 
+.header-soc-li:focus {
+    color: #404BBF;
+}
+/*-------------hero---------------*/
+.hero {
+    background-color: #2E2F42;
+}
+.hero-item {
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+    text-align: center;
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+    color: #ffffff;
+}
+.hero-img {
+}
+.hero-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.hero-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*-------------benefits---------------*/
+.benefits {
+}
+.benefits-li {
+}
+.benefits-item {
+}
+.benefits-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.benefits-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*-------------products---------------*/
+.products {
+}
+.products-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+}
+.products-li {
+}
+.products-item {
+}
+.products-img {
+}
+/*-------------team---------------*/
+.team {
+    background-color: #F4F4FD;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+}
+.team-li {
+}
+.team-item {
+    background: #FFFFFF;
+}
+.team-img {
+}
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.team-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*-------------footer---------------*/
+.footer {
+    background-color: #2E2F42;
+}
+.footer-logo {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase ;
+    color: #4D5AE5
+}
+.footer-logo-dark {
+    color: #F4F4FD;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+/*-------------Tabs---------------*/
+.tabs-li {
+
+}
+.tabs-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.tabs-btn:hover,
+.tabs-btn:focus {
+    color: var(--main-text-color);
+    background-color: var(--btn-color);
+}
+
+
