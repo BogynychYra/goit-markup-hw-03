@@ -97,8 +97,8 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 /*-------------hero---------------*/
 .hero {
-    padding-bottom: 120px;
-    padding-left: 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-container {
     background-color: #2E2F42;
@@ -126,8 +126,9 @@ p, h1,h2,h3,h4,h5,h6 {
     color: #FFFFFF;
     background-color: #4d5ae5;
     cursor: pointer;
+    display: block;
+    border: none;
     border-radius: 4px;
-    bottom: none;
     min-width: 169px;
     height: 56px;
 }
