@@ -248,6 +248,8 @@ p, h1,h2,h3,h4,h5,h6 {
 /*-------------footer---------------*/
 .footer {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-logo {
     font-family: var(--primary-font);
@@ -257,7 +259,8 @@ p, h1,h2,h3,h4,h5,h6 {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase ;
-    color: #4D5AE5
+    color: #4D5AE5;
+    padding-left: 158px;
 }
 .footer-logo-dark {
     color: #F4F4FD;
@@ -267,10 +270,18 @@ p, h1,h2,h3,h4,h5,h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    padding-left: 158px;
+    max-width: 264px;
+    padding-top: 16px;
 }
 /*-------------Tabs---------------*/
+.tabs {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .tabs-li {
-
+    display: flex;
+    margin-bottom: 72px;
 }
 .tabs-btn {
     font-family: inherit;
@@ -287,6 +298,12 @@ p, h1,h2,h3,h4,h5,h6 {
 .tabs-btn:focus {
     color: var(--main-text-color);
     background-color: var(--btn-color);
+}
+.hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 156px;
+    gap: 24px 48px;
 }
 
 
