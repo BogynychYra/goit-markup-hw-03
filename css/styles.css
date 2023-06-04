@@ -26,18 +26,21 @@ p, h1,h2,h3,h4,h5,h6 {
     max-width: 1440px;
     padding-left: 15px;
     padding-right: 15px;
-    
+    margin: 0 auto;    
 }
 /*-------------header---------------*/
 .header {
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+    border-bottom: 1px solid #e7e9fc 
 }
 .header-navigation {
     display: flex;
+    align-items: center;
 }
 .header-container {
     display: flex;
+    width: 1158px;
 }
 .header-logo {
     font-family: var(--primary-font);
@@ -48,8 +51,7 @@ p, h1,h2,h3,h4,h5,h6 {
     letter-spacing: 0.03em;
     text-transform: uppercase ;
     color: #4D5AE5;
-    margin-right: 75px;
-    padding-left: 158px;
+    margin-right: 76px; 
 }
 .header-logo-dark {
     color: #2E2F42;
@@ -199,6 +201,7 @@ p, h1,h2,h3,h4,h5,h6 {
     width: 360px;
 }
 .products-img {
+    display: block;
 }
 /*-------------team---------------*/
 .team {
