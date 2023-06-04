@@ -30,8 +30,7 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 /*-------------header---------------*/
 .header {
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc 
 }
 .header-navigation {
@@ -154,7 +153,10 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 /*-------------benefits---------------*/
 .benefits {
-    padding-bottom: 120px;
+    padding: 120px 0;
+}
+.visually-hidden {
+    
 }
 .benefits-li {
     display: flex;
@@ -164,6 +166,7 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 .benefits-item {
     width: 264px;
+    width: calc((100% - 72px) / 4);
 }
 .benefits-subtitle {
     font-weight: 500;
