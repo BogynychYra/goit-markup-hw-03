@@ -151,14 +151,13 @@ p, h1,h2,h3,h4,h5,h6 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-bottom: 0;
+    margin-bottom: 8px;
 }
 .hero-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 8px;
 }
 .img {
     display: block;
