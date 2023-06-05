@@ -30,17 +30,18 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 /*-------------header---------------*/
 .header {
-    padding-top: 24px; 
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
+    padding-top: 24px; 
+    padding-bottom: 24px;
     display: flex;
     align-items: center;
 }
 .header-container {
     display: flex;
     width: 1158px;
+    align-items: center;
 }
 .header-logo {
     font-family: var(--primary-font);
@@ -79,6 +80,7 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 .header-soc {
     display: flex;
+    margin-left: auto;
     gap: 40px;
 }
 
@@ -137,6 +139,7 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 .img {
     display: block;
+    width: 264px;
 }
 .hero-subtitle {
     font-weight: 500;
@@ -155,9 +158,6 @@ p, h1,h2,h3,h4,h5,h6 {
 .benefits {
     padding: 120px 0;
 }
-.visually-hidden {
-    
-}
 .benefits-li {
     display: flex;
     padding-left: 158px;
@@ -165,7 +165,6 @@ p, h1,h2,h3,h4,h5,h6 {
     gap: 24px;
 }
 .benefits-item {
-    width: 264px;
     width: calc((100% - 72px) / 4);
 }
 .benefits-subtitle {
@@ -184,7 +183,7 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 /*-------------products---------------*/
 .products {
-    padding: 120px 0;
+    padding-bottom: 120px;
 }
 .products-title {
     font-weight: 700;
@@ -203,12 +202,12 @@ p, h1,h2,h3,h4,h5,h6 {
     gap: 24px;
 }
 .products-item {
-    width: 360px;
+    width: calc((100% - 48px) / 3); 
 }
--------------team---------------*/
+/*-------------team---------------*/
 .team {
-    padding: 120px 0;
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .team-title {
     font-weight: 700;
@@ -218,8 +217,7 @@ p, h1,h2,h3,h4,h5,h6 {
     text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
-    padding-bottom: 72px;
-    
+    margin-bottom: 72px;
 }
 .team-li {
     display: flex;
@@ -229,10 +227,9 @@ p, h1,h2,h3,h4,h5,h6 {
     padding-bottom: 120px;
 }
 .team-item {
-    background: #FFFFFF;
-}
-.team-img {
-    padding-bottom: 32px;
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-subtitle {
     font-weight: 500;
@@ -249,7 +246,9 @@ p, h1,h2,h3,h4,h5,h6 {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    padding-bottom: 32px;
+}
+.container-img {
+    padding: 32px 16px;
 }
 /*-------------footer---------------*/
 .footer {
