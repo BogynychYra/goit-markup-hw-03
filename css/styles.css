@@ -43,9 +43,8 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 /*-------------header---------------*/
 .header {
-    border-bottom: 1px solid #e7e9fc;
     padding: 24px 0;
-
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
     display: flex;
