@@ -61,8 +61,6 @@ p, h1,h2,h3,h4,h5,h6 {
     display: flex;
     gap: 40px;
 }
-.header-menu-item {
-}
 .header-menu-li {
     font-weight: 500;
     font-size: 16px;
@@ -82,9 +80,6 @@ p, h1,h2,h3,h4,h5,h6 {
     display: flex;
     margin-left: auto;
     gap: 40px;
-}
-
-.header-soc-item {
 }
 .header-soc-li {
     font-style: normal;
@@ -296,6 +291,11 @@ p, h1,h2,h3,h4,h5,h6 {
     color: #4D5AE5;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border: 1px solid transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 .tabs-btn:hover,
 .tabs-btn:focus {
@@ -306,7 +306,9 @@ p, h1,h2,h3,h4,h5,h6 {
     display: flex;
     flex-wrap: wrap;
     padding-left: 156px;
-    gap: 24px 48px;
+    column-gap: 24px;
+    row-gap: 48px;
+    width: calc((100% - 48px) / 3);
 }
 
 
