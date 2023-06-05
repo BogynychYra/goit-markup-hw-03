@@ -160,6 +160,9 @@ p, h1,h2,h3,h4,h5,h6 {
     color: #434455;
     padding-top: 8px;
 }
+.img {
+    display: block;
+}
 /*-------------benefits---------------*/
 .benefits {
     padding: 120px 0;
