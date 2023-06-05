@@ -320,14 +320,8 @@ p, h1,h2,h3,h4,h5,h6 {
     color: var(--main-text-color);
     background-color: var(--btn-color);
 }
- .blok-img {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-
-}
-.container-img {
-    width: 300px;
-    padding: 32px 16px;
+.hero-list {
+    
 }
 
 
