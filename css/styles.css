@@ -32,7 +32,7 @@ p, h1,h2,h3,h4,h5,h6 {
 .header {
     padding-top: 24px; 
     padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc 
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
     display: flex;
@@ -100,8 +100,6 @@ p, h1,h2,h3,h4,h5,h6 {
     background-color: #2E2F42;
     padding: 188px 0;
 }
-.hero-container {
-}
 .hero-item {
 }
 .hero-title {
@@ -137,7 +135,8 @@ p, h1,h2,h3,h4,h5,h6 {
     background-color: #404BBF;
     color: #ffffff;
 }
-.hero-img {
+.img {
+    display: block;
 }
 .hero-subtitle {
     font-weight: 500;
@@ -195,6 +194,7 @@ p, h1,h2,h3,h4,h5,h6 {
     text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
+    margin-bottom: 72px;
 }
 .products-li {
     display: flex;
@@ -205,11 +205,9 @@ p, h1,h2,h3,h4,h5,h6 {
 .products-item {
     width: 360px;
 }
-.products-img {
-    display: block;
-}
-/*-------------team---------------*/
+-------------team---------------*/
 .team {
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 .team-title {
@@ -220,8 +218,8 @@ p, h1,h2,h3,h4,h5,h6 {
     text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
-    padding: 120px;
     padding-bottom: 72px;
+    
 }
 .team-li {
     display: flex;
