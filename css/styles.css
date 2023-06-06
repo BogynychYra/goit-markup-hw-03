@@ -47,12 +47,10 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 .header-navigation {
     display: flex;
-    align-items: center;
 }
 .header-container {
     display: flex;
     width: 1158px;
-    align-items: center;
     margin: 0 auto;
 }
 .header-logo {
@@ -72,8 +70,6 @@ p, h1,h2,h3,h4,h5,h6 {
 .header-menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-menu-li {
@@ -82,7 +78,7 @@ p, h1,h2,h3,h4,h5,h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    
+    padding: 24px 0;
 }
 .header-menu-li:hover,
 .header-menu-li:focus {
