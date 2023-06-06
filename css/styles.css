@@ -47,11 +47,13 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 .header-navigation {
     display: flex;
+    align-items: center;
 }
 .header-container {
     display: flex;
     width: 1158px;
     margin: 0 auto;
+    align-items: center;
 }
 .header-logo {
     font-family: var(--primary-font);
@@ -78,6 +80,7 @@ p, h1,h2,h3,h4,h5,h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    display: block;
     padding: 24px 0;
 }
 .header-menu-li:hover,
