@@ -231,6 +231,7 @@ p, h1,h2,h3,h4,h5,h6 {
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
+    padding-left: 0;
 }
 .team-item {
     background-color: #FFFFFF;
