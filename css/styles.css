@@ -209,9 +209,7 @@ p, h1,h2,h3,h4,h5,h6 {
     padding-left: 0;
     width: calc((100% - 48px) / 3);
 }
-.products-item {
-    
-}
+
 /*-------------team---------------*/
 .team {
     background-color: #F4F4FD;
@@ -306,7 +304,7 @@ p, h1,h2,h3,h4,h5,h6 {
     background-color: #F4F4FD;
     cursor: pointer;
     padding: 12px 24px;
-    border: 1px solid #e7e9fc;
+    border: var(--border)
     border: 1px solid transparent;
     border: 1px solid transparent;
     border-radius: 4px;
