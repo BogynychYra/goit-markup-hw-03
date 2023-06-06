@@ -308,6 +308,7 @@ p, h1,h2,h3,h4,h5,h6 {
 .tabs-btn:focus {
     color: var(--main-text-color);
     background-color: var(--btn-color);
+    border: 1px solid transparent;
 }
 .hero-list {
     display: flex;
