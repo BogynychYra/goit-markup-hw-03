@@ -64,7 +64,7 @@ p, h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase ;
     color: #4D5AE5;
     margin-right: 76px;
-
+    padding-left: 0;
 }
 .header-logo-dark {
     color: #2E2F42;
